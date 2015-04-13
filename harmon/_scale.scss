@@ -1,0 +1,53 @@
+// ========== Scale ========== //
+
+// Traverse 6 steps down the scale, 16 steps up.
+$s-0-base: $base;
+$s-1-up:   $s-0-base * $ratio;
+$s-2-up:   $s-1-up   * $ratio;
+$s-3-up:   $s-2-up   * $ratio;
+$s-4-up:   $s-3-up   * $ratio;
+$s-5-up:   $s-4-up   * $ratio;
+$s-6-up:   $s-5-up   * $ratio;
+$s-7-up:   $s-6-up   * $ratio;
+$s-8-up:   $s-7-up   * $ratio;
+$s-9-up:   $s-8-up   * $ratio;
+$s-10-up:  $s-9-up   * $ratio;
+$s-11-up:  $s-10-up  * $ratio;
+$s-12-up:  $s-11-up  * $ratio;
+$s-13-up:  $s-12-up  * $ratio;
+$s-14-up:  $s-13-up  * $ratio;
+$s-15-up:  $s-14-up  * $ratio;
+$s-16-up:  $s-15-up  * $ratio;
+$s-1-down: $s-0-base / $ratio;
+$s-2-down: $s-1-down / $ratio;
+$s-3-down: $s-2-down / $ratio;
+$s-4-down: $s-3-down / $ratio;
+$s-5-down: $s-4-down / $ratio;
+$s-6-down: $s-5-down / $ratio;
+
+// Store the scale in a map.
+$steps: (
+  -6: $s-6-down,
+  -5: $s-5-down,
+  -4: $s-4-down,
+  -3: $s-3-down,
+  -2: $s-2-down,
+  -1: $s-1-down,
+  0:  $s-0-base,
+  1:  $s-1-up,
+  2:  $s-2-up,
+  3:  $s-3-up,
+  4:  $s-4-up,
+  5:  $s-5-up,
+  6:  $s-6-up,
+  7:  $s-7-up,
+  8:  $s-8-up,
+  9:  $s-9-up,
+  10: $s-10-up,
+  11: $s-11-up,
+  12: $s-12-up,
+  13: $s-13-up,
+  14: $s-14-up,
+  15: $s-15-up,
+  16: $s-16-up
+);

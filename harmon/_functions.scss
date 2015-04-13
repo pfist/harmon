@@ -1,0 +1,32 @@
+// ========== Functions ========== //
+
+// Convert px values to rem or unitless
+@function convert-px($px, $unit: rem) {
+  $output: $px / $base;
+  @if $unit == rem {
+    @return #{$output}rem;
+  }
+  @elseif $unit == unitless {
+    @return $output;
+  }
+  @else {
+    @return null;
+  }
+}
+
+// 1. Match $step to the matching step on the scale.
+// 2. If $step doesn't match a step on the scale, warn the user.
+@function scale($step, $unit: null) {
+  @if map-has-key($steps, $step) {
+    @if $unit == unitless {
+      @return convert-px(map-get($steps, $step), unitless);
+    }
+    @else {
+      @return convert-px(map-get($steps, $step), rem);
+    }
+  }
+  @if $step < -6 or $step > 16 {
+    @error '#{$step} is outside the range of the scale.'
+    + 'You can traverse 6 steps down the scale, 16 steps up.';
+  }
+}

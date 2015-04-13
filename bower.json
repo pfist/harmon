@@ -1,0 +1,19 @@
+{
+  "name": "harmon",
+  "version": "1.0.0",
+  "authors": [
+    "Nick Pfisterer <mail@nicks.space>"
+  ],
+  "description": "A simple typographic scale written in Sass.",
+  "main": "_harmony.scss",
+  "keywords": [
+    "css",
+    "design",
+    "sass",
+    "scss",
+    "typography"
+    "ui",
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nickpfisterer/harmon"
+}
