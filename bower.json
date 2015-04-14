@@ -11,8 +11,8 @@
     "design",
     "sass",
     "scss",
-    "typography"
-    "ui",
+    "typography",
+    "ui"
   ],
   "license": "MIT",
   "homepage": "https://github.com/nickpfisterer/harmon"
