@@ -3,8 +3,8 @@ A simple typographic scale written in Sass.
 
 If you need something more powerful or flexible, check out [modularscale-sass](https://github.com/modularscale/modularscale-sass).
 
-## What is this?
-Harmon is a simple typographic scale made for Sass-based projects. It's built on the principal that using a modular scale in web design will help you achieve visual harmony, particularly with typography. Read more about modular scales in Tim Brown's [A List Apart article](http://alistapart.com/article/more-meaningful-typography).
+## A simple what?
+Harmon is built on the principal that using a modular scale in web design will help you achieve visual harmony, particularly with typography. Not sure what a modular scale is or why you might use one? Read Tim Brown's [A List Apart article](http://alistapart.com/article/more-meaningful-typography) on the subject.
 
 I tried [modularscale-sass](https://github.com/modularscale/modularscale-sass) but it felt a bit heavy duty for my needs. I wanted something simpler and lighter, so I built Harmon to scratch the itch.
 
