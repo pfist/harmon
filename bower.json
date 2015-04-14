@@ -15,5 +15,12 @@
     "ui"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/nickpfisterer/harmon"
+  "homepage": "https://github.com/nickpfisterer/harmon",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
