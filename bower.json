@@ -5,7 +5,7 @@
     "Nick Pfisterer <mail@nicks.space>"
   ],
   "description": "A simple typographic scale written in Sass.",
-  "main": "_harmony.scss",
+  "main": "_harmon.scss",
   "keywords": [
     "css",
     "design",
