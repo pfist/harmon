@@ -60,7 +60,7 @@ body {
   line-height: scale(2, unitless);
 }
 ```
-Harmon uses the same ratios and steps seen on [modularscale.com](modularscale.com). **You can travel 6 steps down the scale or 16 up.** Harmon will throw an error if you try to go below -6 or above 16. I find this range to provide good coverage across all of the ratios available. Going beyond -6 and 16 seems to lead to diminishing returns anyway.
+Harmon uses the same ratios and steps seen on [modularscale.com](http://modularscale.com). **You can travel 6 steps down the scale or 16 up.** Harmon will throw an error if you try to go below -6 or above 16. I find this range to provide good coverage across all of the ratios available. Going beyond -6 and 16 seems to lead to diminishing returns anyway.
 
 ## Issues
 If you find a bug or have a feature suggestion, feel free to [submit an issue](https://github.com/nickpfisterer/harmon/issues).
